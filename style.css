@@ -1,0 +1,291 @@
+:root {
+  --light-blue: #ecf8fb;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  z-index: 1000000000;
+}
+
+.header-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+
+/* Flex layout for the content and image */
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 80px;
+}
+
+/* Image styling */
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Spacing for the buttons */
+.btn-group {
+  margin-top: 20px;
+}
+
+.image-wrapper {
+  padding-right: 0;
+}
+
+.circle-center {
+  left: 30%;
+  bottom: 00%;
+}
+
+.circle-center img {
+  width: 600px;
+  height: 600px;
+}
+
+.circle-home {
+  right: 0;
+  top: 0;
+  z-index: -1000000;
+}
+
+.circle-top {
+  left: 30%;
+  top: 20%;
+  z-index: 0;
+}
+
+.connect-btn {
+  border-radius: 50px;
+  background-color: var(--light-blue);
+  font-weight: bold;
+  color: #000;
+  border: none;
+  display: inline;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.icon-circle i {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.padding {
+  padding: 48px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.image-col {
+  position: relative;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.image-middle {
+  position: absolute;
+  top: -30px; /* Adjust this value to move the middle image higher or lower */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.image {
+  width: 100%; /* Set a fixed width */
+  height: 100%; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image is cropped to fit the dimensions without distortion */
+}
+
+.navy-logo {
+  width: 100%;
+  max-width: 120px;
+}
+
+.box {
+  border-radius: 20px;
+  background-color: #ecf8fb;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.box-content {
+  width: 100%;
+}
+
+.input-group-wrapper {
+  position: relative;
+  width: 66.3333%;
+  margin: auto;
+}
+.form-control {
+  border-radius: 50px;
+  padding: 16px;
+  padding-right: 4rem; /* Add space for the button */
+}
+
+.btn-round {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  border-radius: 100px;
+  padding: 0.75rem 1.5rem;
+  background-color: #3961cb;
+}
+
+.circle-left {
+  display: block;
+  height: 10px;
+  bottom: 50%;
+}
+
+.circle-right {
+  display: block;
+  right: 0;
+  top: 0;
+  height: 20px;
+}
+
+.circle-right img {
+  object-fit: cover;
+}
+
+.circle-middle-right {
+  display: block;
+  right: 30%;
+  top: 50%;
+}
+
+.circle-middle-left {
+  display: block;
+  left: 30%;
+  top: 50%;
+}
+
+.circle-middle-left img {
+  height: 200px;
+  width: 200px;
+}
+
+.content {
+  max-width: 66.6666%;
+  padding: 50px 0px;
+}
+
+.about-img {
+  right: 0;
+  bottom: 30%;
+  z-index: -1000000;
+}
+
+.about-img img {
+  height: 500px;
+}
+
+.about-circle {
+  right: 0;
+  bottom: 0;
+  z-index: 1000000;
+}
+
+/* .container-fluid {
+  padding: 3rem;
+}
+
+.section-wrapper {
+  position: relative;
+}
+
+.left-section {
+  position: relative;
+  z-index: 1;
+  border-radius: 1.5rem 0 0 1.5rem;
+} */
+
+@media (max-width: 768px) {
+  nav {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .content-wrapper {
+    padding-left: 16px;
+  }
+
+  .image-middle {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin-bottom: 20px;
+  }
+
+  .padding {
+    padding: 24px;
+  }
+
+  .navy-logo {
+    max-weight: 80px;
+  }
+
+  .input-group-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  .circle-left {
+    display: none;
+  }
+
+  .circle-right {
+    display: none;
+  }
+
+  .circle-middle-left {
+    display: none;
+  }
+
+  .circle-middle-right {
+    display: none;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .image-wrapper {
+    order: -1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .right-section {
+    width: 100%;
+  }
+}

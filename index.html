@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Bootstrap Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Bootstrap Navbar -->
+    <div class="w-100">
+      <nav
+        class="position-absolute w-100 top-0 left-0 right-0 navbar navbar-expand-lg"
+      >
+        <div class="container-fluid">
+          <!-- Left Aligned Logo -->
+          <a class="navbar-brand" href="/index.html">
+            <img
+              src="images/softair-dark.png.png"
+              alt="Logo"
+              height="60"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+
+          <!-- Toggler for Mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Links -->
+          <div
+            style="background-color: #fff"
+            class="collapse navbar-collapse"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ms-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-italic" href="#">Projects</a>
+              </li>
+              <li class="nav-item" style="margin: auto">
+                <a
+                  style="width: 180px"
+                  class="btn btn-primary connect-btn d-flex align-items-center"
+                  href="#"
+                  role="button"
+                >
+                  Let's Connect
+                  <div
+                    class="icon-circle ms-2 d-flex align-items-center justify-content-center"
+                  >
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="circle-home position-absolute">
+      <img src="images/circle-home-right.png" alt="" />
+    </div>
+
+    <header class="position-relative header-section" style="overflow-x: hidden">
+      <div class="circle-center position-absolute">
+        <img src="images/circle-center.png" alt="" />
+      </div>
+
+      <div class="circle-top position-absolute">
+        <img src="images/circle-top.png" alt="" />
+      </div>
+
+      <div class="row d-flex content-wrapper" style="z-index: 10000000">
+        <!-- Left content section -->
+        <div class="col-lg-5 d-flex flex-column justify-content-end">
+          <h1>
+            Make your business a brand with
+            <span style="color: #3961cb">your expertise</span>
+          </h1>
+          <p class="lead">
+            We are dedicated to crafting technical solutions that empower
+            businesses to thrive in the online realm. With a keen focus on
+            innovation and excellence, we offer a comprehensive suite of
+            services tailored to meet the diverse needs of our clients.
+          </p>
+          <!-- Buttons -->
+          <div class="d-flex">
+            <a
+              style="background-color: #424242; color: #fff"
+              class="btn btn-primary connect-btn d-flex align-items-center me-3"
+              href="#"
+              role="button"
+            >
+              Get In Touch
+              <div
+                style="background-color: #fff"
+                class="icon-circle ms-2 d-flex align-items-center justify-content-center"
+              >
+                <i style="color: #3961cb" class="bi bi-arrow-right"></i>
+              </div>
+            </a>
+            <a
+              style="background-color: #3961cb; color: #fff"
+              class="btn btn-primary connect-btn d-flex align-items-center"
+              href="#"
+              role="button"
+            >
+              Discover More
+              <div
+                style="background-color: #fff"
+                class="icon-circle ms-2 d-flex align-items-center justify-content-center"
+              >
+                <i style="color: #3961cb" class="bi bi-arrow-right"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right image section -->
+        <div class="col-md-7 image-wrapper d-flex justify-content-end">
+          <img
+            style="max-height: 300px"
+            src="images/robo.png"
+            alt="Business branding image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div
+        class="image-row d-flex"
+        style="overflow-x: scroll; scrollbar-width: none"
+      >
+        <img
+          src="images/image1.png"
+          class="img-fluid me-2"
+          alt="Image 1"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image2.png"
+          class="img-fluid me-2"
+          alt="Image 2"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image3.png"
+          class="img-fluid me-2"
+          alt="Image 3"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image4.png"
+          class="img-fluid me-2"
+          alt="Image 4"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image5.png"
+          class="img-fluid me-2"
+          alt="Image 5"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image6.png"
+          class="img-fluid me-2"
+          alt="Image 5"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image7.png"
+          class="img-fluid me-2"
+          alt="Image 5"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image8.png"
+          class="img-fluid me-2"
+          alt="Image 5"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image9.png"
+          class="img-fluid me-2"
+          alt="Image 5"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image10.png"
+          class="img-fluid me-2"
+          alt="Image 5"
+          style="max-width: 200px"
+        />
+        <img
+          src="images/image11.png"
+          class="img-fluid me-2"
+          alt="Image 5"
+          style="max-width: 200px"
+        />
+      </div>
+    </section>
+
+    <section
+      class="position-relative vh-100 d-flex flex-column justify-content-center"
+    >
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="text-left mb-4">
+          <h2 style="font-weight: bold">
+            Tailored solutions for <br />
+            your unique needs.
+          </h2>
+        </div>
+
+        <div class="position-absolute end-0 top-0">
+          <img src="images/ball.png" alt="" />
+        </div>
+
+        <!-- Scrollable Boxes Section -->
+        <div
+          class="row flex-nowrap overflow-auto mt-4"
+          style="overflow-x: auto; scrollbar-width: none"
+        >
+          <!-- Box 1 -->
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0"
+              style="box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15); height: 100%"
+            >
+              <img
+                src="images/it-cons.png"
+                class="card-img-top img-fluid"
+                alt="Box 1 Image"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5 class="card-title mt-2 mb-3">IT Consultancy</h5>
+                  <p class="card-text">
+                    Expert Advice in technology strategy implementation, Our
+                    experts are dedicated to delivering innovative, scalable,
+                    and sustainable tech solutions.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <a
+                    style="background-color: #424242"
+                    class="btn connect-btn d-inline-flex align-items-center text-white"
+                    href="#"
+                    role="button"
+                  >
+                    Get in touch
+                    <div
+                      class="icon-circle bg-light ms-2 d-flex align-items-center justify-content-center"
+                      style="width: 30px; height: 30px; border-radius: 50%"
+                    >
+                      <i class="bi bi-arrow-right text-dark"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0"
+              style="box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15); height: 100%"
+            >
+              <img
+                src="images/it-cons.png"
+                class="card-img-top img-fluid"
+                alt="Box 2 Image"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5 class="card-title mt-2 mb-3">IT Management</h5>
+                  <p class="card-text">
+                    We offer end-to-end IT management services designed to keep
+                    your operations running smoothly. Our proactive approach
+                    ensures that your technology is always optimized, secure,
+                    and ready to support your business needs.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <a
+                    style="background-color: #424242"
+                    class="btn connect-btn d-inline-flex align-items-center text-white"
+                    href="#"
+                    role="button"
+                  >
+                    Get in touch
+                    <div
+                      class="icon-circle bg-light ms-2 d-flex align-items-center justify-content-center"
+                      style="width: 30px; height: 30px; border-radius: 50%"
+                    >
+                      <i class="bi bi-arrow-right text-dark"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0"
+              style="box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15); height: 100%"
+            >
+              <img
+                src="images/it-cons.png"
+                class="card-img-top img-fluid"
+                alt="Box 3 Image"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5 class="card-title mt-2 mb-3">
+                    Quality Assurance and Testing
+                  </h5>
+                  <p class="card-text">
+                    Our meticulous quality assurance and testing services
+                    guarantee that your software is not only reliable but also
+                    performs at its best.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <a
+                    style="background-color: #424242"
+                    class="btn connect-btn d-inline-flex align-items-center text-white"
+                    href="#"
+                    role="button"
+                  >
+                    Get in touch
+                    <div
+                      class="icon-circle bg-light ms-2 d-flex align-items-center justify-content-center"
+                      style="width: 30px; height: 30px; border-radius: 50%"
+                    >
+                      <i class="bi bi-arrow-right text-dark"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="position-relative vh-100 d-flex flex-column justify-content-center"
+    >
+      <div class="container">
+        <!-- Section Heading -->
+        <div style="margin-bottom: 100px" class="text-center">
+          <h6 class="text-primary">OUR GALLERY</h6>
+          <h2 style="font-weight: bold">IT Solutions Gallery</h2>
+        </div>
+
+        <div class="position-absolute start-0 top-0">
+          <img src="images/ball-left.png" alt="" />
+        </div>
+
+        <!-- Scrollable Boxes Section -->
+        <div
+          class="row flex-nowrap overflow-auto mt-4"
+          style="overflow-x: auto; scrollbar-width: none"
+        >
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0 d-flex justify-content-center align-items-center position-relative"
+              style="
+                box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15);
+                height: 100%;
+                overflow: hidden;
+              "
+            >
+              <div
+                class="position-relative d-flex justify-content-center align-items-center"
+                style="width: 100%; height: 100%"
+              >
+                <img
+                  src="images/box1-img1.png"
+                  alt="Box 1 Image 1"
+                  class="position-absolute"
+                  style="padding: 5px; bottom: 0; left: 0"
+                />
+                <img
+                  src="images/box1-img2.png"
+                  alt="Box 1 Image 2"
+                  class="position-absolute"
+                  style="bottom: 30px; left: 15%"
+                />
+                <img
+                  src="images/box1-img3.png"
+                  alt="Box 1 Image 3"
+                  class="position-absolute"
+                  style="top: 10px; left: 28%"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0"
+              style="box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15); height: 100%"
+            >
+              <img
+                src="images/it-cons.png"
+                class="card-img-top img-fluid"
+                alt="Box 2 Image"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5 class="card-title mt-2 mb-3">IT Management</h5>
+                  <p class="card-text">
+                    We offer end-to-end IT management services designed to keep
+                    your operations running smoothly. Our proactive approach
+                    ensures that your technology is always optimized, secure,
+                    and ready to support your business needs.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <a
+                    style="background-color: #424242"
+                    class="btn connect-btn d-inline-flex align-items-center text-white"
+                    href="#"
+                    role="button"
+                  >
+                    Get in touch
+                    <div
+                      class="icon-circle bg-light ms-2 d-flex align-items-center justify-content-center"
+                      style="width: 30px; height: 30px; border-radius: 50%"
+                    >
+                      <i class="bi bi-arrow-right text-dark"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0"
+              style="box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15); height: 100%"
+            >
+              <img
+                src="images/it-cons.png"
+                class="card-img-top img-fluid"
+                alt="Box 3 Image"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5 class="card-title mt-2 mb-3">
+                    Quality Assurance and Testing
+                  </h5>
+                  <p class="card-text">
+                    Our meticulous quality assurance and testing services
+                    guarantee that your software is not only reliable but also
+                    performs at its best.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <a
+                    style="background-color: #424242"
+                    class="btn connect-btn d-inline-flex align-items-center text-white"
+                    href="#"
+                    role="button"
+                  >
+                    Get in touch
+                    <div
+                      class="icon-circle bg-light ms-2 d-flex align-items-center justify-content-center"
+                      style="width: 30px; height: 30px; border-radius: 50%"
+                    >
+                      <i class="bi bi-arrow-right text-dark"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container padding">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 class="font-weight-bold">
+            We have also worked with <br /><span style="color: #04127b"
+              >Indian Navy</span
+            >
+          </h2>
+          <img class="navy-logo" src="images/navy-logo.png" alt="" />
+        </div>
+        <div class="image-row">
+          <div class="image-col">
+            <img src="images/navy1.png" alt="Image 1" class="image" />
+          </div>
+          <div class="image-col image-middle">
+            <img src="images/navy2.png" alt="Image 2" class="image" />
+          </div>
+          <div class="image-col">
+            <img src="images/navy3.png" alt="Image 3" class="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="position-relative" style="min-height: 100vh">
+      <div class="about-img position-absolute d-none d-md-block">
+        <img src="images/about.png" alt="" />
+      </div>
+
+      <div class="about-circle position-absolute d-none d-md-block">
+        <img src="images/about-circle.png" alt="" />
+      </div>
+
+      <div class="container my-5">
+        <div class="row">
+          <!-- Left Section (Image) -->
+          <div class="col-lg-6 mb-4 d-none d-md-block">
+            <img
+              src="images/economy.png"
+              alt="Company Image"
+              class="img-fluid mb-3"
+            />
+          </div>
+
+          <!-- Right Section (Content) -->
+          <div class="col-lg-6 mb-4">
+            <small class="text-uppercase" style="color: #3961cb">ABOUT</small>
+            <h1 style="font-weight: 600" class="text-sm display-6">
+              We Help Companies Scale Engineering IT Services
+            </h1>
+            <p class="mt-3 mb-5">
+              We are dedicated to crafting technical solutions that empower
+              businesses to thrive in the online realm. With a keen focus on
+              innovation and excellence, we offer a comprehensive suite of
+              services tailored to meet the diverse needs of our clients.
+            </p>
+
+            <!-- Two Equal Sections within the Right Section -->
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <img class="mb-4" src="images/data-eng.png" alt="" />
+                <h5>Data Engineering and Analytics</h5>
+                <p>
+                  We provide cutting-edge IT solutions, from cloud computing to
+                  AI integration, that help businesses grow.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <img class="mb-4" src="images/crn.png" alt="" />
+                <h5>CRM and ERP</h5>
+                <p>
+                  We unifies business processes, enhancing efficiency and
+                  customer relationships seamlessly.
+                </p>
+              </div>
+            </div>
+
+            <!-- Button Section -->
+            <div class="mt-4 d-flex justify-content-center align-items-center">
+              <a
+                style="background-color: #3961cb"
+                class="btn connect-btn d-inline-flex align-items-center text-white"
+                href="#"
+                role="button"
+              >
+                More About
+                <div
+                  class="icon-circle bg-light ms-2 d-flex align-items-center justify-content-center"
+                  style="width: 30px; height: 30px; border-radius: 50%"
+                >
+                  <i style="color: #3961cb" class="bi bi-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- We’re The Best Software Company
+& Provide Best Services -->
+    <section class="position-relative" style="background-color: #04127b">
+      <div class="circle-left position-absolute left-0">
+        <img src="images/circle-left-bottom.png" alt="" />
+      </div>
+
+      <div class="circle-right position-absolute">
+        <img src="images/circle-right-top.png" alt="" />
+      </div>
+
+      <div class="circle-middle-left position-absolute">
+        <img src="images/circle-left.png" alt="" />
+      </div>
+
+      <div class="circle-middle-right position-absolute">
+        <img src="images/circle-right.png" alt="" />
+      </div>
+
+      <div
+        class="content container d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1 style="margin-bottom: 80px" class="text-white text-center">
+          We're The Best Software Company & Provide Best Services
+        </h1>
+        <div class="d-flex">
+          <a
+            style="background-color: #424242; color: #fff"
+            class="btn btn-primary connect-btn d-flex align-items-center"
+            href="#"
+            role="button"
+          >
+            Let's Connect
+            <div
+              style="background-color: #fff"
+              class="icon-circle ms-2 d-flex align-items-center justify-content-center"
+            >
+              <i style="color: #424242" class="bi bi-arrow-right"></i>
+            </div>
+          </a>
+          <a
+            style="background-color: #fff; color: #000"
+            class="btn btn-primary connect-btn d-flex align-items-center"
+            href="#"
+            role="button"
+          >
+            Let's Connect
+            <div
+              style="background-color: #000"
+              class="icon-circle ms-2 d-flex align-items-center justify-content-center"
+            >
+              <i style="color: #fff" class="bi bi-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding" style="min-height: 100vh">
+      <div class="container">
+        <div>
+          <h2>Excellent performance</h2>
+          <p>
+            We are the most trusted IT company. We know the value of customer
+            satisfaction and make sure to deliver results. We are the most
+            trusted IT company. We know the value of customer satisfaction and
+            make sure to deliver results.We are the most trusted IT company. We
+            know the value of customer satisfaction and make sure to deliver
+            results.We are the most trusted IT company. We know the value of
+            customer satisfaction and make sure to deliver results.We are the
+            most trusted IT company. We know the value of customer satisfaction
+            and make sure to deliver results.
+          </p>
+        </div>
+        <div class="row">
+          <!-- First Box -->
+          <div class="col-md-3 col-sm-6 d-flex mb-3 mb-sm-4">
+            <div class="box">
+              <div class="box-content">
+                <h3>100+</h3>
+                <h4>Impression</h4>
+                <p>
+                  die Ihre Arbeitgebermarke durch branchenrelevante Reichweite
+                  stärken.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Second Box -->
+          <div class="col-md-3 col-sm-6 d-flex mb-3 mb-sm-4">
+            <div class="box">
+              <div class="box-content">
+                <h3>500+</h3>
+                <h4>Kunden</h4>
+                <p>
+                  unabhängig von Unternehmensgröße und Branche vertrauen bereits
+                  auf uns.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Third Box -->
+          <div class="col-md-3 col-sm-6 d-flex mb-3 mb-sm-4">
+            <div class="box">
+              <div class="box-content">
+                <h3>100%</h3>
+                <h4>Bewerbergarantie</h4>
+                <p>
+                  Wir garantieren Ihnen bereits in den ersten Tagen Bewerbungen
+                  von passenden Kandidaten.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Fourth Box -->
+          <div class="col-md-3 col-sm-6 d-flex mb-3 mb-sm-4">
+            <div class="box">
+              <div class="box-content">
+                <h3>8</h3>
+                <h4>Experten</h4>
+                <p>
+                  aus den Bereichen Data Science, Grafik, Text,
+                  Projektmanagement, Kampagnenmanagement und Recruiting
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center"
+            style="margin-top: 50px"
+          >
+            <a
+              style="background-color: #3961cb; color: #fff"
+              class="btn btn-primary connect-btn d-flex align-items-center"
+              href="#"
+              role="button"
+            >
+              Let's Connect
+              <div
+                style="background-color: #fff"
+                class="icon-circle ms-2 d-flex align-items-center justify-content-center"
+              >
+                <i style="color: #3961cb" class="bi bi-arrow-right"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding" style="min-height: 100vh">
+      <!-- How It Works Section -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4">
+            <div class="d-flex align-items-center mb-3">
+              <img class="me-2" src="images/mouse.png" alt="" />
+              <h5 class="mb-0">How It Works</h5>
+            </div>
+
+            <!-- Large Heading -->
+            <h2 class="display-6">Smart Strategy & Excellent Performance</h2>
+
+            <!-- Content -->
+            <p class="mt-3">
+              Choose a Service — Request a meeting — Receive Customer Plan —
+              Let's make it happen.
+            </p>
+
+            <!-- Two Rows with Icons and Text -->
+            <div class="row mb-3">
+              <div class="col-1 me-4">
+                <img
+                  src="images/trusted.png"
+                  style="max-width: 50px; max-height: 50px"
+                  alt=""
+                />
+                <!-- Replace with your icon -->
+              </div>
+              <div class="col-10">
+                <h6>Trusted Services</h6>
+                <p>
+                  We are the most trusted IT company. We know the value of
+                  customer satisfaction and make sure to deliver results.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-1 me-4">
+                <img
+                  src="images/support.png"
+                  style="max-width: 50px; max-height: 50px"
+                  alt=""
+                />
+                <!-- Replace with your icon -->
+              </div>
+              <div class="col-10">
+                <h6>24/7 Supports</h6>
+                <p>
+                  We are a 24/7 IT company providing high quality end-to- end IT
+                  solutions to our clients with instant response..
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Section (Image) -->
+          <div
+            class="position-relative col-lg-6 col-md-12 mb-4 d-none d-md-flex justify-content-center align-items-center"
+          >
+            <img
+              class="position-absolute"
+              style="height: 600px"
+              src="images/circle-center.png"
+              alt=""
+            />
+
+            <img
+              style="max-height: 450px"
+              src="images/robo-works.png"
+              alt="Service Image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- email -->
+    <section style="background-color: #e5e7eb" class="padding w-100">
+      <div
+        class="position-relative d-flex justify-content-center align-items-center w-100"
+      >
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Enter your email Address"
+          aria-label="Input"
+        />
+        <button class="position-absolute btn btn-primary btn-round">
+          Submit
+        </button>
+      </div>
+    </section>
+
+    <section class="position-relative container-fluid padding" style="min-height: 100vh">
+      <div class="section-wrapper row h-100">
+        <!-- Left section -->
+        <div
+          class="col-lg-6 d-none d-lg-flex flex-column text-white p-4 left-section"
+          style="
+            background-color: #04127b;
+            height: 530px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+          "
+        >
+          <h3 class="h3 mb-4">SoftAir Technology</h3>
+          <p class="h6 mb-5">
+            We know how to polish your mobile app and website to give it the
+            power to shine.
+          </p>
+          <div class="d-flex flex-column mb-auto">
+            <div class="d-flex align-items-center mb-2">
+              <img src="images/location-c.png" class="me-2" alt="Location" />
+              <p class="h5">Sec 63, Noida, Uttar Pradesh, India</p>
+            </div>
+            <div class="d-flex align-items-center mb-2">
+              <img src="images/email-c.png" class="me-2" alt="Email" />
+              <p class="h5">support@softairtechnology.com</p>
+            </div>
+            <div class="d-flex align-items-center mb-2">
+              <img src="images/phone-c.png" class="me-2" alt="Phone" />
+              <p class="h5">+91 7042584234</p>
+            </div>
+          </div>
+          <h3 class="h5 mb-3">Connect with us:</h3>
+          <div class="d-flex gap-3">
+            <img src="images/facebook-c.png" alt="Facebook" />
+            <img src="images/twitter-c.png" alt="Twitter" />
+            <img src="images/insta-c.png" alt="Instagram" />
+            <img src="images/linkedin-c.png" alt="LinkedIn" />
+          </div>
+        </div>
+
+        <!-- Right section (Form) -->
+        <div
+          class="col-lg-6 col-12 d-flex flex-column justify-content-center right-section"
+          style="
+            padding: 0;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+          "
+        >
+          <div class="py-4 px-5 bg-white shadow-lg rounded-3">
+            <h2 style="color: #04127b" class="h2 text-black mb-4">
+              Get In Touch
+            </h2>
+            <p class="text-black fw-bold mb-6">
+              We'd love to hear from you! Whether you have questions about our
+              games, need support, or are interested in collaborating with us,
+              our team at Mellow Fox Studios is here to help.
+            </p>
+            <form class="mb-3">
+              <!-- Name Field -->
+              <input
+                type="text"
+                placeholder="Name *"
+                class="form-control rounded-0 mb-3"
+              />
+
+              <!-- Email Field -->
+              <input
+                type="email"
+                placeholder="Email *"
+                class="form-control rounded-0 mb-3"
+              />
+
+              <!-- Phone Number Field -->
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                class="form-control rounded-0 mb-3"
+              />
+
+              <!-- How Did You Find Us Dropdown -->
+              <select class="form-select mb-3">
+                <option value="" disabled selected>How did you find us?</option>
+                <option value="social_media">Social Media</option>
+                <option value="search_engine">Search Engine</option>
+                <option value="friend">Friend</option>
+                <option value="advertisement">Advertisement</option>
+                <option value="other">Other</option>
+              </select>
+
+              <!-- Submit Button -->
+              <button
+                style="background-color: #04127b"
+                type="submit"
+                class="btn w-100 text-light"
+              >
+                SEND
+              </button>
+            </form>
+          </div>
+        </div>
+        <!-- Top Right Contact Details (visible on all screens) -->
+        <div
+          class="position-absolute right-0 p-3 d-flex justify-content-center align-items-center"
+        >
+          <div class="d-flex align-items-center">
+            <img src="images/email.png" alt="" />
+            <div class="ms-2 text-start">
+              <p class="mb-1 fw-bold">EMAIL</p>
+              <p class="text-danger">info@mellowfox.com</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center">
+            <img src="images/phone.png" alt="" />
+            <div class="ms-2 text-start">
+              <p class="mb-1 fw-bold">PHONE</p>
+              <p class="text-danger">03 5432 1234</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- copyrights -->
+    <footer
+      class="bg-white text-black"
+      style="padding-top: 3rem; padding-bottom: 0"
+    >
+      <div class="container">
+        <!-- Footer Columns -->
+        <div class="row mb-4">
+          <!-- Column 1: Product -->
+          <div class="col-6 col-md-2 mb-3">
+            <h3 class="h5 font-weight-bold mb-3">Product</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Landing Page</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Popup Builder</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Web-design</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Content</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Integrations</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 2: Use Cases -->
+          <div class="col-6 col-md-2 mb-3">
+            <h3 class="h5 font-weight-bold mb-3">Use Cases</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Web Designers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Marketers</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Small Business</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Website Builder</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Resources -->
+          <div class="col-6 col-md-2 mb-3">
+            <h3 class="h5 font-weight-bold mb-3">Resources</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Academy</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Themes</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Hosting</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Developers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Support</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 4: Company -->
+          <div class="col-6 col-md-2 mb-3">
+            <h3 class="h5 font-weight-bold mb-3">Company</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-dark text-decoration-none">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Teams</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 5: Follow Us & Contact Us -->
+          <div class="col-md-4 mb-3">
+            <h3 class="h5 font-weight-bold mb-3">Follow Us</h3>
+            <div class="d-flex gap-3 mb-4">
+              <div style="width: 16px; height: 16px" class="shadow">
+                <a href="#"
+                  ><img
+                    src="images/facebook.png"
+                    alt="Facebook"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div style="width: 16px; height: 16px" class="shadow">
+                <a href="#"
+                  ><img
+                    src="images/telegram.png"
+                    alt="Telegram"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div style="width: 16px; height: 16px" class="shadow">
+                <a href="#"
+                  ><img
+                    src="images/instagram.png"
+                    alt="Instagram"
+                    class="img-fluid"
+                /></a>
+              </div>
+            </div>
+
+            <h3 class="h5 font-weight-bold mb-3">Contact Us</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-start mb-2">
+                <img src="images/location.png" alt="Location" class="me-2" />
+                <span>Sector 63, Nodia</span>
+              </li>
+              <li class="d-flex align-items-start">
+                <img src="images/email.png" alt="Email" class="me-2" />
+                <span>support@softairtechnology.com</span>
+              </li>
+            </ul>
+
+            <button
+              style="background-color: #3961cb"
+              class="text-light btn mt-3 rounded-pill px-4 py-3"
+            >
+              CONTACT US
+            </button>
+          </div>
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="text-left">
+          <span class="text-muted">&copy; 2024 All rights reserved.</span>
+        </div>
+      </div>
+
+      <div
+        style="background-color: #04127b"
+        class="container-fluid text-light py-3 mt-4"
+      >
+        <div
+          class="row d-flex align-items-center justify-content-center text-center"
+        >
+          <span class="text-primary fs-5 me-2">Softair Technology</span>
+          <span>&copy; Copyright 2024 All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
